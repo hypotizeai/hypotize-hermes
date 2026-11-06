@@ -20,7 +20,7 @@ Hypotize does not run A/B tests or assign traffic. Keep your analytics and exper
 hermes plugins install hypotize
 ```
 
-Requires Node.js 20.18.1 or newer with npm, because sign-in runs through `mcp-remote`. When Hermes calls a Hypotize tool and you are not signed in yet, a browser window opens: sign in with Google or email and approve access. Then ask Hermes, for example: "Read my Hypotize backlog and tell me which idea to test next."
+Requires Node.js 20.18.1 or newer with npm, because sign-in runs through `mcp-remote`. When Hermes calls a Hypotize tool and you are not signed in yet, a browser window opens: sign in with Google or email and approve access. If Hermes stops waiting before you finish signing in, run `/reload-mcp` once you are done: the saved sign-in is reused. Then ask Hermes, for example: "Read my Hypotize backlog and tell me which idea to test next."
 
 You need a Hypotize account. The free plan works: [sign up](https://hypotize.ai/auth?utm_source=hermes&utm_medium=marketplace).
 
